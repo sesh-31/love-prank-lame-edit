@@ -4,7 +4,7 @@ const response = document.getElementById('response');
 const container = document.querySelector('body');
 
 yesButton.addEventListener('click', () => {
-    response.textContent = "I already knew it preety lady ";
+    response.textContent = "I already knew it, preety lady ";
     response.style.visibility = 'visible';
     container.classList.add('love-bg'); // Add the love emoji background
     noButton.style.display = 'none'; // Hide the 'No' button after 'Yes' is clicked
